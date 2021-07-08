@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Calculator x</h1>
+
+    <form action="#">
+        <h2>Basic Arithmetic</h2>
+
+        <!-- Addition -->
+        <div id="addition">
+            <input type="number" id="sum1" class="nums-inp">
+            <span>+</span>
+            <input type="number" id="sum2" class="nums-inp">
+            <span>=</span>
+            <input type="text" id="sum" class="nums-output" readonly>
+        </div>
+
+        <!-- Subtraction -->
+        <div id="subtraction">
+            <input type="number" id="substr1" class="nums-inp">
+            <span>-</span>
+            <input type="number" id="substr2" class="nums-inp">
+            <span>=</span>
+            <input type="text" id="substr" class="nums-output" readonly>
+        </div>
+
+        <!-- Multiplication -->
+        <div id="multiplication">
+            <input type="number" id="mult1" class="nums-inp">
+            <span>x</span>
+            <input type="number" id="mult2" class="nums-inp">
+            <span>=</span>
+            <input type="text" id="mult" class="nums-output" readonly>
+        </div>
+
+        <!-- Division -->
+        <div id="division">
+            <input type="number" id="divis1" class="nums-inp">
+            <span>/</span>
+            <input type="number" id="divis2" class="nums-inp">
+            <span>=</span>
+            <input type="text" id="divis" class="nums-output" readonly>
+        </div>
+
+        <!-- Modulo -->
+        <div id="modulo">
+            <h2>Special Operations</h2>
+
+            <input type="number" id="modul1" class="nums-inp">
+            <span> % </span>
+            <input type="number" id="modul2" class="nums-inp">
+            <span>=</span>
+            <input type="text" id="modul" class="nums-output" readonly>
+        </div>
+    </form>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
